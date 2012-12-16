@@ -22,8 +22,6 @@ class Mission
 		"osshdy",
 		"dayz",
 		"CAWheeled_E_Old_moto",
-		"CATracked2_T90",
-		"CAWheeled2_GAZ39371",
 		"cawheeled_e_v3s",
 		"cawheeled_e_volha",
 		"CAWheeled3_M1030",
@@ -40,9 +38,7 @@ class Mission
 		"CAWheeled_E_Old_moto",
 		"cadata",
 		"CAWheeled",
-		"CATracked2_T90",
 		"camisc_e",
-		"CAWheeled2_GAZ39371",
 		"cawheeled_e_v3s",
 		"CABuildings",
 		"CAWheeled_E",
@@ -1202,7 +1198,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=384;
+		items=324;
 		class Item0
 		{
 			position[]={13370.774,172.991,8699.9951};
@@ -1965,7 +1961,7 @@ class Mission
 			azimut=-46.1008;
 			id=188;
 			side="EMPTY";
-			vehicle="BRDM2_CDF";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -1976,7 +1972,7 @@ class Mission
 			azimut=-46.886299;
 			id=189;
 			side="EMPTY";
-			vehicle="BRDM2_CDF";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -1987,7 +1983,7 @@ class Mission
 			azimut=-47.555801;
 			id=190;
 			side="EMPTY";
-			vehicle="BRDM2_CDF";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -1998,7 +1994,7 @@ class Mission
 			azimut=-45.6824;
 			id=191;
 			side="EMPTY";
-			vehicle="T90";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -2533,7 +2529,7 @@ class Mission
 			azimut=72.3237;
 			id=251;
 			side="EMPTY";
-			vehicle="GAZ_Vodnik_MedEvac";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -2544,7 +2540,7 @@ class Mission
 			azimut=-224.614;
 			id=252;
 			side="EMPTY";
-			vehicle="V3S_Reammo_TK_GUE_EP1";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -2555,7 +2551,7 @@ class Mission
 			azimut=134.61301;
 			id=253;
 			side="EMPTY";
-			vehicle="V3S_Refuel_TK_GUE_EP1";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="this setDamage 1;";
@@ -2566,7 +2562,7 @@ class Mission
 			azimut=136.53999;
 			id=254;
 			side="EMPTY";
-			vehicle="V3S_Repair_TK_GUE_EP1";
+			vehicle="UAZ_CDF";
 			lock="LOCKED";
 			skill=1;
 			init="clearWeaponCargo this; clearMagazineCargo this;";
@@ -3216,7 +3212,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_loco_742_red";
 			skill=1;
-			init="this setVectorDirAndUp [(vectorDir this),[1,0,0]];BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul = [this, 4, time, false, true] spawn BIS_Effects_Burn;";
+			init="this setVectorDirAndUp [(vectorDir this),[1,0,0]];";
 		};
 		class Item226
 		{
@@ -3226,7 +3222,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_loco_742_blue";
 			skill=1;
-			init="BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul = [this, 4, time, false, true] spawn BIS_Effects_Burn;";
+			
 		};
 		class Item227
 		{
@@ -3689,7 +3685,7 @@ class Mission
 			vehicle="VolhaLimo_TK_CIV_EP1";
 			lock="LOCKED";
 			skill=1;
-			init="this setDamage 0.8;BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul = [this, 4, time, false, true] spawn BIS_Effects_Burn;";
+			init="this setDamage 0.8;";
 		};
 		class Item276
 		{
@@ -3813,7 +3809,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Mass_grave";
 			skill=1;
-			init="BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul = [this, 4, time, false, true] spawn BIS_Effects_Burn;";
+			
 		};
 		class Item289
 		{
@@ -3838,7 +3834,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Mass_grave";
 			skill=1;
-			init="BIS_Effects_Burn = compile preprocessFile ""\ca\Data\ParticleEffects\SCRIPTS\destruction\burn.sqf""; nul = [this, 4, time, false, true] spawn BIS_Effects_Burn;";
+			
 		};
 		class Item292
 		{
@@ -4112,486 +4108,6 @@ class Mission
 			id=424;
 			side="EMPTY";
 			vehicle="Sound_Alarm2";
-			skill=0.60000002;
-		};
-		class Item324
-		{
-			position[]={8817.2275,175.57275,19466.471};
-			id=425;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item325
-		{
-			position[]={3307.7393,34.220318,7468.0078};
-			id=426;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item326
-		{
-			position[]={3374.9084,34.219448,7501.5649};
-			id=427;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item327
-		{
-			position[]={3329.834,34.219448,7587.8486};
-			id=428;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item328
-		{
-			position[]={3263.3279,34.219448,7556.5254};
-			id=429;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item329
-		{
-			position[]={3620.3997,29.343145,7718.5435};
-			id=430;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item330
-		{
-			position[]={3850.3594,36.095749,7351.8179};
-			id=431;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item331
-		{
-			position[]={3794.6741,36.096619,7250.1411};
-			id=432;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item332
-		{
-			position[]={3690.2646,40.962265,7301.9463};
-			id=433;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item333
-		{
-			position[]={3928.4734,36.095749,7314.7041};
-			id=434;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item334
-		{
-			position[]={3872.4016,36.095749,7210.7065};
-			id=435;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item335
-		{
-			position[]={3861.0664,36.095749,7112.7969};
-			id=436;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item336
-		{
-			position[]={3786.6035,36.095749,7110.0991};
-			id=437;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item337
-		{
-			position[]={3862.3574,36.095749,7037.542};
-			id=438;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item338
-		{
-			position[]={3786.3123,36.095749,7037.2993};
-			id=439;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item339
-		{
-			position[]={3863.8875,36.095749,6903.1411};
-			id=440;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item340
-		{
-			position[]={3787.4043,36.095749,6903.1411};
-			id=441;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item341
-		{
-			position[]={3998.3335,36.095501,7134.939};
-			id=442;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item342
-		{
-			position[]={3739.0447,36.095501,6906.2261};
-			id=443;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item343
-		{
-			position[]={7449.7334,34.649918,4647.4844};
-			id=444;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item344
-		{
-			position[]={7517.7212,34.653355,4632.6484};
-			id=445;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item345
-		{
-			position[]={7438.1323,34.646465,4711.1396};
-			id=446;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item346
-		{
-			position[]={7507.9458,34.661518,4396.0698};
-			id=447;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item347
-		{
-			position[]={7631.6846,34.685745,4524.1538};
-			id=448;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item348
-		{
-			position[]={7719.1748,34.661518,4621.6226};
-			id=449;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item349
-		{
-			position[]={7422.9521,34.685081,4301.1055};
-			id=450;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item350
-		{
-			position[]={7351.7095,34.660648,4225.5059};
-			id=451;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item351
-		{
-			position[]={7486.0708,34.661518,4109.9189};
-			id=452;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item352
-		{
-			position[]={7551.0649,34.685081,4187.394};
-			id=453;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item353
-		{
-			position[]={7632.9312,34.661518,4275.4888};
-			id=454;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item354
-		{
-			position[]={7754.1709,34.649445,4407.3232};
-			id=455;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item355
-		{
-			position[]={7848.5371,34.661518,4501.0415};
-			id=456;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item356
-		{
-			position[]={7939.1528,34.660648,4414.1958};
-			id=457;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item357
-		{
-			position[]={7852.9111,34.685745,4320.4751};
-			id=458;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item358
-		{
-			position[]={7727.9233,34.661518,4193.0166};
-			id=459;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item359
-		{
-			position[]={7644.1807,34.685081,4101.1724};
-			id=460;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item360
-		{
-			position[]={7576.6875,34.661518,4024.9487};
-			id=461;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item361
-		{
-			position[]={7704.8003,34.661522,3913.7336};
-			id=462;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item362
-		{
-			position[]={7771.6689,34.685116,3989.3333};
-			id=463;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item363
-		{
-			position[]={7853.5361,34.661674,4073.6809};
-			id=464;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item364
-		{
-			position[]={7976.0244,34.6604,4205.5151};
-			id=465;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item365
-		{
-			position[]={8064.7656,34.660648,4296.7368};
-			id=466;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item366
-		{
-			position[]={5387.8882,35.800247,8502.6855};
-			id=467;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item367
-		{
-			position[]={5363.6489,35.800247,8571.3467};
-			id=468;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item368
-		{
-			position[]={5343.4502,35.800247,8648.083};
-			id=469;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item369
-		{
-			position[]={5311.1318,35.800247,8734.9189};
-			id=470;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item370
-		{
-			position[]={5375.7686,35.800247,8757.1318};
-			id=471;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item371
-		{
-			position[]={5413.1367,35.800247,8674.3359};
-			id=472;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item372
-		{
-			position[]={5445.4551,35.799999,8682.4141};
-			id=473;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item373
-		{
-			position[]={5515.1416,35.799999,8704.6279};
-			id=474;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item374
-		{
-			position[]={5643.4058,34.67738,8635.9678};
-			id=475;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item375
-		{
-			position[]={5643.4058,35.800247,8844.9795};
-			id=476;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item376
-		{
-			position[]={5573.7192,35.800247,8821.7539};
-			id=477;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item377
-		{
-			position[]={5487.8735,35.799999,8791.4619};
-			id=478;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item378
-		{
-			position[]={5465.6543,35.799999,8848.0068};
-			id=479;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item379
-		{
-			position[]={5360.6196,35.799999,8812.668};
-			id=480;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item380
-		{
-			position[]={5432.3257,35.800247,8936.8623};
-			id=481;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item381
-		{
-			position[]={5524.2314,56.555264,8930.8027};
-			id=482;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item382
-		{
-			position[]={5520.1914,35.800247,8970.1807};
-			id=483;
-			side="EMPTY";
-			vehicle="Baseball";
-			skill=0.60000002;
-		};
-		class Item383
-		{
-			position[]={5603.0073,35.800247,8955.0352};
-			id=484;
-			side="EMPTY";
-			vehicle="Baseball";
 			skill=0.60000002;
 		};
 	};

@@ -5,9 +5,9 @@ OnLoadIntro = "Thank you for helping";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
-disableChannels[]={0,1,2,6};
+disableChannels[]={0,2,6};
 enableItemsDropping = 0;
-
+loadScreen = "\z\addons\dayz_code\gui\TavianaLS_1_2.paa";
 class Header
 {
  gameType = COOP;            //DM, Team, Coop, ...
