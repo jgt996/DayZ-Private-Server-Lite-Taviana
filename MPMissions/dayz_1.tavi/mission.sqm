@@ -55,8 +55,8 @@ class Mission
 	randomSeed=11171215;
 	class Intel
 	{
-		briefingName="DayZ";
-		briefingDescription="DayZ Alpha";
+		briefingName="DayZ Taviana";
+		briefingDescription="DayZ Taviana By DayZLand.eu";
 		startWeather=0.067362607;
 		forecastWeather=0.52341133;
 		year=2008;
@@ -1961,10 +1961,8 @@ class Mission
 			azimut=-46.1008;
 			id=188;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item88
 		{
@@ -1972,10 +1970,8 @@ class Mission
 			azimut=-46.886299;
 			id=189;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item89
 		{
@@ -1983,10 +1979,8 @@ class Mission
 			azimut=-47.555801;
 			id=190;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item90
 		{
@@ -1994,10 +1988,8 @@ class Mission
 			azimut=-45.6824;
 			id=191;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item91
 		{
@@ -2005,10 +1997,8 @@ class Mission
 			azimut=-100.357;
 			id=192;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item92
 		{
@@ -2016,10 +2006,8 @@ class Mission
 			azimut=-99.243202;
 			id=193;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item93
 		{
@@ -2027,10 +2015,8 @@ class Mission
 			azimut=-97.499199;
 			id=194;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item94
 		{
@@ -2529,10 +2515,8 @@ class Mission
 			azimut=72.3237;
 			id=251;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item151
 		{
@@ -2540,10 +2524,8 @@ class Mission
 			azimut=-224.614;
 			id=252;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item152
 		{
@@ -2551,10 +2533,8 @@ class Mission
 			azimut=134.61301;
 			id=253;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="this setDamage 1;";
 		};
 		class Item153
 		{
@@ -2562,10 +2542,8 @@ class Mission
 			azimut=136.53999;
 			id=254;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item154
 		{
@@ -2573,10 +2551,8 @@ class Mission
 			azimut=84.302498;
 			id=255;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item155
 		{
@@ -2584,10 +2560,8 @@ class Mission
 			azimut=81.843697;
 			id=256;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item156
 		{
@@ -2595,10 +2569,8 @@ class Mission
 			azimut=82.791702;
 			id=257;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item157
 		{
@@ -2606,10 +2578,8 @@ class Mission
 			azimut=83.922897;
 			id=258;
 			side="EMPTY";
-			vehicle="UAZ_CDF";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item158
 		{
@@ -2637,7 +2607,6 @@ class Mission
 			side="EMPTY";
 			vehicle="PowGen_Big";
 			skill=1;
-			init="this setDamage 1;";
 		};
 		class Item161
 		{
@@ -2647,7 +2616,6 @@ class Mission
 			side="EMPTY";
 			vehicle="PowGen_Big";
 			skill=1;
-			init="this setDamage 1;";
 		};
 		class Item162
 		{
@@ -2823,10 +2791,8 @@ class Mission
 			azimut=-199.29201;
 			id=282;
 			side="EMPTY";
-			vehicle="Ikarus_TK_CIV_EP1";
-			lock="LOCKED";
+			vehicle="BMP2Wreck";
 			skill=1;
-			init="this setVectorUp [1,0,0];this setDamage 1;";
 		};
 		class Item182
 		{
@@ -2842,10 +2808,8 @@ class Mission
 			azimut=10.3172;
 			id=284;
 			side="EMPTY";
-			vehicle="SkodaBlue";
-			lock="LOCKED";
+			vehicle="SKODAWreck";
 			skill=1;
-			init="this setVectorUp [0,0,-1];this setDamage 1;";
 		};
 		class Item184
 		{
@@ -2893,10 +2857,8 @@ class Mission
 			azimut=161.358;
 			id=289;
 			side="EMPTY";
-			vehicle="M1030_US_DES_EP1";
-			lock="LOCKED";
+			vehicle="HMMWVWreck";
 			skill=1;
-			init="this setVectorUp[1,0,0];";
 		};
 		class Item189
 		{
@@ -2924,10 +2886,8 @@ class Mission
 			azimut=-234.166;
 			id=292;
 			side="EMPTY";
-			vehicle="UralCivil";
-			lock="LOCKED";
+			vehicle="UralWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item192
 		{
@@ -2944,7 +2904,7 @@ class Mission
 			position[]={13268.922,172.991,8587.1563};
 			id=294;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 		};
 		class Item194
@@ -2953,7 +2913,7 @@ class Mission
 			azimut=-179.50281;
 			id=295;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 		};
 		class Item195
@@ -3345,9 +3305,8 @@ class Mission
 			azimut=29.677799;
 			id=340;
 			side="EMPTY";
-			vehicle="UralCivil2";
+			vehicle="UralWreck";
 			skill=1;
-			init="this setDamage 1;";
 		};
 		class Item240
 		{
@@ -3600,10 +3559,8 @@ class Mission
 			azimut=-9.9284401;
 			id=368;
 			side="EMPTY";
-			vehicle="Ural_UN_EP1";
-			lock="LOCKED";
+			vehicle="UralWreck";
 			skill=1;
-			init="clearWeaponCargo this; clearMagazineCargo this;player action [""LightOn"", this];";
 		};
 		class Item268
 		{
@@ -3611,10 +3568,8 @@ class Mission
 			azimut=70.548599;
 			id=369;
 			side="EMPTY";
-			vehicle="Ural_UN_EP1";
-			lock="LOCKED";
+			vehicle="UralWreck";
 			skill=1;
-			init="this setDamage 0.8; clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item269
 		{
@@ -3682,10 +3637,8 @@ class Mission
 			azimut=-164.718;
 			id=376;
 			side="EMPTY";
-			vehicle="VolhaLimo_TK_CIV_EP1";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="this setDamage 0.8;";
 		};
 		class Item276
 		{
@@ -3715,8 +3668,7 @@ class Mission
 			azimut=-157.683;
 			id=379;
 			side="EMPTY";
-			vehicle="SkodaBlue";
-			lock="LOCKED";
+			vehicle="SKODAWreck";
 			skill=1;
 		};
 		class Item279
@@ -3797,17 +3749,15 @@ class Mission
 			azimut=-140.957;
 			id=388;
 			side="EMPTY";
-			vehicle="UAZ_Unarmed_UN_EP1";
-			lock="LOCKED";
+			vehicle="UAZWreck";
 			skill=1;
-			init="player action [""LightOn"", this]; this setDamage 0.8;clearWeaponCargo this; clearMagazineCargo this;";
 		};
 		class Item288
 		{
 			position[]={7087.9585,45.44471,10051.442};
 			id=389;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 			
 		};
@@ -3816,7 +3766,7 @@ class Mission
 			position[]={7098.5864,43.364742,10052.11};
 			id=390;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 		};
 		class Item290
@@ -3824,7 +3774,7 @@ class Mission
 			position[]={7108.0146,41.610485,10051.722};
 			id=391;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 		};
 		class Item291
@@ -3832,7 +3782,7 @@ class Mission
 			position[]={7078.5659,47.268257,10050.865};
 			id=392;
 			side="EMPTY";
-			vehicle="Mass_grave";
+			vehicle="Body";
 			skill=1;
 			
 		};
@@ -4099,16 +4049,16 @@ class Mission
 			position[]={13354.441,190.4915,8592.2451};
 			id=423;
 			side="EMPTY";
-			vehicle="Sound_Alarm2";
-			skill=0.60000002;
+			vehicle="Body2";
+			skill=1;
 		};
 		class Item323
 		{
 			position[]={13429.318,179.78601,8654.1934};
 			id=424;
 			side="EMPTY";
-			vehicle="Sound_Alarm2";
-			skill=0.60000002;
+			vehicle="Body2";
+			skill=1;
 		};
 	};
 	class Markers

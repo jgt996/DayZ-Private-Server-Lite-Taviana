@@ -1,8 +1,23 @@
 DayzTaviana is a plugin for DayZ-Mod for Arma2 made by Dean "Rocket" Hall (wwww.dayzmod.com).
 Its based on Island Taviana by Martin ( www.ofpbase.co.nr) .
 Plugin made by DayzLand-Community (www.dayzland.eu) and MrSherenai aka Kamp (www.mrsherenai.com).
-Official release thread: 
-1. www.tunngle.net/community/topic/107701-dayz-taviana-new-dayz-map/
-2. dayzmod.com/forum/index.php?/topic/109069-release-dayztaviana-by-dayzlandeu/
-
+Official release threads: 
+http://dayzmod.com/forum/index.php?/topic/109069-release-dayztaviana-by-dayzlandeu/
+http://www.tunngle.net/community/topic/107701-dayz-taviana-new-dayz-map/
+http://www.DayzLand.eu/
 Further patches and support will be given there. Stay tuned!
+
+Thanks to all our players, supporters and helpers.
+Shouts go out to:
+- The whole DayZLand developer team
+- Our whole community for all the great feedback you gave us
+- sohei clan
+- Rabauken clan
+- CTC clan
+- f0rt
+- Stapo (https://github.com/Stapo/DayZ-Private-Server-Lite-Taviana)
+and aswell:
+- rocket
+- The Community Team
+- Bohemia Interactive(http://www.bistudio.com/)
+- Gamersplatoon (http://www.gamersplatoon.net/home/)
